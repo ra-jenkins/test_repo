@@ -4,7 +4,7 @@
   <groupId>ap.group</groupId>
   <artifactId>ap.artifact.id</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.2</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>ap.artifact.id</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -15,4 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>${release.repo.id}</id>
+      <name>RA release repository</name>
+      <url>${release.repos.url}</url>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>${snapshot.repo.id}</id>
+      <name>RA snapshot repository</name>
+      <url>${snapshot.repos.url}</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
