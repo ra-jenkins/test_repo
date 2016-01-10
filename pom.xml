@@ -29,4 +29,9 @@
       <url>${snapshot.repos.url}</url>
     </snapshotRepository>
   </distributionManagement>
+  <scm>
+    <connection>scm:git:https://github.com/ra-jenkins/test_repo.git</connection>
+    <developerConnection>scm:git:https://github.com/ra-jenkins/test_repo.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
 </project>
