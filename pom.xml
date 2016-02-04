@@ -3,7 +3,7 @@
   <groupId>ap.group</groupId>
   <artifactId>ap.artifact.id</artifactId>
   <packaging>jar</packaging>
-  <version>1.1.3-SNAPSHOT</version>
+  <version>1.1.4</version>
   <name>ap.artifact.id</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -31,6 +31,6 @@
   <scm>
     <connection>scm:git:https://github.com/ra-jenkins/test_repo.git</connection>
     <developerConnection>scm:git:https://github.com/ra-jenkins/test_repo.git</developerConnection>
-    <tag>ap.artifact.id-1.1.2</tag>
+    <tag>ap.artifact.id-1.1.4</tag>
   </scm>
 </project>
