@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ap.group</groupId>
+  <artifactId>testworker</artifactId>
+  <packaging>jar</packaging>
+  <version>1.1.1-SNAPSHOT</version>
+  <name>testworker</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>${release.repo.id}</id>
+      <name>RA release repository</name>
+      <url>${release.repos.url}</url>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>${snapshot.repo.id}</id>
+      <name>RA snapshot repository</name>
+      <url>${snapshot.repos.url}</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <scm>
+    <connection>scm:git:https://github.com/ra-jenkins/test_repo.git</connection>
+    <developerConnection>scm:git:https://github.com/ra-jenkins/test_repo.git</developerConnection>
+    <tag>ap.artifact.id-1.1.4</tag>
+  </scm>
+</project>
