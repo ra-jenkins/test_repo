@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<projects xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>ap.group</groupId>
   <artifactId>testworker</artifactId>
@@ -33,4 +33,4 @@
     <developerConnection>scm:git:https://github.com/ra-jenkins/test_repo.git</developerConnection>
     <tag>ap.artifact.id-1.1.4</tag>
   </scm>
-</project>s
+</projects>
